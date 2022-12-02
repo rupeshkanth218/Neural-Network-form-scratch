@@ -52,3 +52,6 @@ output=net.predict(x_test[:5])
 output=np.abs(np.rint(output))
 for y_pred,y_true in zip(output,y_test[:5]):
     print(f"Prediction ={y_pred}, true ={y_true}")
+
+
+print("Finished")
